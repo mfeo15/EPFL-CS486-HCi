@@ -1,0 +1,1016 @@
+## Bob L. Sturm, 2012
+## Audio Analysis Lab
+## Aalborg University Copenhagen, Denmark
+## ## ## ##
+## If you use this information, please cite:
+##
+## B. L. Sturm, "An Analysis of the GTZAN Music Genre Dataset",
+## Proc. ACM Workshop MIRUM, Nara, Japan, Nov. 2012
+## ## ## ##
+## If you have any information regarding the missing entries,
+## or correcting existing ones, please contact :) bst@create.aau.dk
+## ## ## ##
+## Many thanks to:
+## Cynthia Liem for identifying Classical 80, 81, 97 (Nov. 6, 2012)
+## Clemens Hage for identifying Classical 00 -- 02 (Dec. 12, 2012)
+##
+(blues.00000.mp3) John Lee Hooker - One Bourbon, One Scotch And One Beer
+(blues.00001.mp3) John Lee Hooker - I'm In The Mood For Love
+(blues.00002.mp3) John Lee Hooker - Think Twice Before You Go
+(blues.00003.mp3) John Lee Hooker - I'm Bad Like Jesse James
+(blues.00004.mp3) John Lee Hooker - 
+(blues.00005.mp3) John Lee Hooker - Sugar Mama
+(blues.00006.mp3) John Lee Hooker - Dreamin' Blues
+(blues.00007.mp3) John Lee Hooker - Ground Hog Blues
+(blues.00008.mp3) John Lee Hooker - Shake It Baby
+(blues.00009.mp3) John Lee Hooker - It's My Own Fault
+(blues.00010.mp3) John Lee Hooker - Lonely Boy Boogie
+(blues.00011.mp3) John Lee Hooker - It Serves Me Right To Suffer
+(blues.00012.mp3) Robert Johnson - Cross Road Blues
+(blues.00013.mp3) Robert Johnson - Terraplane Blues
+(blues.00014.mp3) Robert Johnson - Come On In My Kitchen
+(blues.00015.mp3) Robert Johnson - Walking blues
+(blues.00016.mp3) Robert Johnson - Last Fair Deal Gone Down
+(blues.00017.mp3) Robert Johnson - 32-20 Blues
+(blues.00018.mp3) Robert Johnson - Kind Hearted Woman Blues
+(blues.00019.mp3) Robert Johnson - If I Had Possession Over Judgement Day
+(blues.00020.mp3) Robert Johnson - Preachin' Blues
+(blues.00021.mp3) Robert Johnson - When You Got A Good Friend
+(blues.00022.mp3) Robert Johnson - Ramblin' On My Mind
+(blues.00023.mp3) Robert Johnson - Stones In My Passway
+(blues.00024.mp3) Robert Johnson - Traveling Riverside Blues
+(blues.00025.mp3) Robert Johnson - Milkcow's Calf Blues
+(blues.00026.mp3) Robert Johnson - Me And The Devil Blues
+(blues.00027.mp3) Robert Johnson - Hell Hound On My Trail
+(blues.00028.mp3) Robert Johnson - Traveling Riverside Blues
+(blues.00029.mp3) Kelly Joe Phelps - The House Carpenter
+(blues.00030.mp3) Kelly Joe Phelps - River Rat Jimmy
+(blues.00031.mp3) Kelly Joe Phelps - Hobo's Son
+(blues.00032.mp3) Kelly Joe Phelps - Katy
+(blues.00033.mp3) Kelly Joe Phelps - Wandering Away
+(blues.00034.mp3) Kelly Joe Phelps - Dock Boggs Country Blues
+(blues.00035.mp3) Kelly Joe Phelps - Capman Bootman
+(blues.00036.mp3) Kelly Joe Phelps - Train Carried My Girl From Town
+(blues.00037.mp3) Kelly Joe Phelps - Piece By Piece
+(blues.00038.mp3) Kelly Joe Phelps - Many A Time
+(blues.00039.mp3) Kelly Joe Phelps - Goodnight Irene
+(blues.00040.mp3) Stevie Ray Vaughan - Love Struck Baby
+(blues.00041.mp3) Stevie Ray Vaughan - Pride and Joy
+(blues.00042.mp3) Stevie Ray Vaughan - Texas Flood
+(blues.00043.mp3) Stevie Ray Vaughan - Tell Me
+(blues.00044.mp3) Stevie Ray Vaughan - Testify
+(blues.00045.mp3) Stevie Ray Vaughan - Rude Mood
+(blues.00046.mp3) Stevie Ray Vaughan - Mary Had A Little Lamb
+(blues.00047.mp3) Stevie Ray Vaughan - Dirty Pool
+(blues.00048.mp3) Stevie Ray Vaughan - I'm Cryin'
+(blues.00049.mp3) Stevie Ray Vaughan - Lenny
+(blues.00050.mp3) Magic Slim & The Teardrops - What's Wrong
+(blues.00051.mp3) Magic Slim & The Teardrops - Snakebite
+(blues.00052.mp3) Magic Slim & The Teardrops - Please Don't Dog Me
+(blues.00053.mp3) Magic Slim & The Teardrops - Key To Your Door
+(blues.00054.mp3) Magic Slim & The Teardrops - Shake It
+(blues.00055.mp3) Magic Slim & The Teardrops - I Ain't Looking for No Love
+(blues.00056.mp3) Magic Slim & The Teardrops - Country Boy
+(blues.00057.mp3) Magic Slim & The Teardrops - Lump On Your Stump
+(blues.00058.mp3) Magic Slim & The Teardrops - Lonesome Trouble
+(blues.00059.mp3) Magic Slim & The Teardrops - The Man You Need
+(blues.00060.mp3) Magic Slim & The Teardrops - Mind Your Own Business
+(blues.00061.mp3) Clifton Chenier - Boppin' The Rock
+(blues.00062.mp3) Clifton Chenier - The Things I Did for You
+(blues.00063.mp3) Clifton Chenier - Yesterday (I Lost My Best Friend)
+(blues.00064.mp3) Clifton Chenier - Clifton's Squeeze-box Boogie
+(blues.00065.mp3) Clifton Chenier - I'm On My Way (Back Home To You)
+(blues.00066.mp3) Clifton Chenier - Ay-Te Te Fee
+(blues.00067.mp3) Clifton Chenier - All Night Long
+(blues.00068.mp3) Clifton Chenier - Opelousas Hop
+(blues.00069.mp3) Clifton Chenier - I'm On My Way, Part 2
+(blues.00070.mp3) Clifton Chenier - Think It Over
+(blues.00071.mp3) Clifton Chenier - Zodico Stomp
+(blues.00072.mp3) Clifton Chenier - The Cats Dreamin'
+(blues.00073.mp3) Buckwheat Zydeco - Turning Point
+(blues.00074.mp3) Buckwheat Zydeco - Zydeco Boogaloo
+(blues.00075.mp3) Buckwheat Zydeco - Ya Ya
+(blues.00076.mp3) Buckwheat Zydeco - Buck's Nouvelle Jole Blon
+(blues.00077.mp3) Buckwheat Zydeco - On A Night Like This 
+(blues.00078.mp3) Buckwheat Zydeco - Hot Tamale Baby
+(blues.00079.mp3) Buckwheat Zydeco - Ma Tit Fille
+(blues.00080.mp3) Buckwheat Zydeco - Hey Good Lookin'
+(blues.00081.mp3) Buckwheat Zydeco - Buck's Hot Rod
+(blues.00082.mp3) Buckwheat Zydeco -
+(blues.00083.mp3) Buckwheat Zydeco -
+(blues.00084.mp3) Buckwheat Zydeco -
+(blues.00085.mp3) Hot Toddy - Crow Jane
+(blues.00086.mp3) Hot Toddy - Cross Cut Saw
+(blues.00087.mp3) Hot Toddy - Right From The Start
+(blues.00088.mp3) Hot Toddy - She's My Girl
+(blues.00089.mp3) Hot Toddy - I Wish You Would
+(blues.00090.mp3) Hot Toddy - One More Night
+(blues.00091.mp3) Hot Toddy - Rescue Me
+(blues.00092.mp3) Hot Toddy - Neighbors Land
+(blues.00093.mp3) Hot Toddy - Mermaids Flirt With Me
+(blues.00094.mp3) Hot Toddy - My Babe
+(blues.00095.mp3) Hot Toddy - Down By The Riverside
+(blues.00096.mp3) Hot Toddy - Long Distance
+(blues.00097.mp3) Hot Toddy - T-Bone Shuffle
+(blues.00098.mp3) Albert Collins - Iceman
+(blues.00099.mp3) Albert Collins - Lights Are On But Nobody's Home
+(classical.00000.mp3) JS Bach - Concert for oboe, BWV 1053
+(classical.00001.mp3) JS Bach - Concert for oboe, BWV 1053
+(classical.00002.mp3) JS Bach - Concert for oboe, BWV 1053
+(classical.00003.mp3) JS Bach - Ich steh mit einem Fuss im Grabe, BWV 156 Sinfonia
+(classical.00004.mp3) JS Bach -
+(classical.00005.mp3) JS Bach -
+(classical.00006.mp3) JS Bach -
+(classical.00007.mp3) JS Bach -
+(classical.00008.mp3) JS Bach -
+(classical.00009.mp3) JS Bach -
+(classical.00010.mp3) JS Bach -
+(classical.00011.mp3) Mozart - Symphony No.36 in C, K.425, "Linz", Adagio, Allegro spiritoso
+(classical.00012.mp3) Mozart - Symphony No.36 in C, K.425, "Linz", Andante
+(classical.00013.mp3) Mozart - Symphony No.36 in C, K.425, "Linz", Menuetto
+(classical.00014.mp3) Mozart - Symphony No.36 in C, K.425, "Linz", Finale (Presto)
+(classical.00015.mp3) Mozart - Symphony No.38 in D, K.504, "Prague", Adagio, Allegro
+(classical.00016.mp3) Mozart - Symphony No.38 in D, K.504, "Prague", Andante
+(classical.00017.mp3) Mozart - Symphony No.38 in D, K.504, "Prague", Finale (Presto)
+(classical.00018.mp3) Mozart - Symphony No.39 in E flat, K.543, Adagio, Allegro
+(classical.00019.mp3) Mozart - Symphony No.39 in E flat, K.543, Andante con moto
+(classical.00020.mp3) Mozart - Symphony No.39 in E flat, K.543, Menuetto (Allegretto)
+(classical.00021.mp3) Mozart - Symphony No.39 in E flat, K.543, Finale (Allegro)
+(classical.00022.mp3) Mozart - Symphony No.40 in G minor, K.550, Molto allegro
+(classical.00023.mp3) Mozart - Symphony No.40 in G minor, K.550, Andante
+(classical.00024.mp3) Mozart - Symphony No.40 in G minor, K.550, Menuetto (Allegretto)
+(classical.00025.mp3) Mozart - Symphony No.40 in G minor, K.550, Finale (Allegro assai)
+(classical.00026.mp3) Mozart - Symphony No.41 in C, K.551, "Jupiter", Allegro vivace
+(classical.00027.mp3) Mozart - Symphony No.41 in C, K.551, "Jupiter", Andante cantabile
+(classical.00028.mp3) Mozart - Symphony No.41 in C, K.551, "Jupiter", Menuetto (Allegretto)
+(classical.00029.mp3) Mozart - Symphony No.41 in C, K.551, "Jupiter", Molto allegro
+(classical.00030.mp3) Claude Debussy - Quartet in G minor for Strings, Op. 10, Anime et tres decide
+(classical.00031.mp3) Claude Debussy - Quartet in G minor for Strings, Op. 10, Assez vif et bien rythme
+(classical.00032.mp3) Claude Debussy - Quartet in G minor for Strings, Op. 10, Andantino, doucement expressif
+(classical.00033.mp3) Claude Debussy - Quartet in G minor for Strings, Op. 10, Tres modere, Tres mouvemente et avec passion, Tres anime, Tres vii
+(classical.00034.mp3) Maurice Ravel - Quartet in F Major for Strings, Allegro moderato. Tres doux
+(classical.00035.mp3) Maurice Ravel - Quartet in F Major for Strings, Assez vif - Tres rythme
+(classical.00036.mp3) Maurice Ravel - Quartet in F Major for Strings, Tres lent
+(classical.00037.mp3) Maurice Ravel - Quartet in F Major for Strings, Vif et agite
+(classical.00038.mp3) Henri Dutilleux - Ainsi la nuit for String Quartet: I. Nocturne
+(classical.00039.mp3) Henri Dutilleux - Ainsi la nuit for String Quartet: II. Miroir d'espace
+(classical.00040.mp3) Henri Dutilleux - Ainsi la nuit for String Quartet: IV. Litanies 2
+(classical.00041.mp3) Henri Dutilleux - Ainsi la nuit for String Quartet: VII. Temps suspendu
+(classical.00042.mp3) Giovanni Gabrieli - Canzon XIII
+(classical.00043.mp3) Richard Strauss - Konzert Fur Waldhorn Mit Orchester, Op. 11, Allegro
+(classical.00044.mp3) George Gershwin - Rhapsody in Blue
+(classical.00045.mp3) Richard Strauss - Fuge Für Klavier
+(classical.00046.mp3) Karol Szymanowski - Violin Concerto No. 1, Op. 35
+(classical.00047.mp3) Leonard Bernstein - On the Town, Three Dance Episodes, Lonely town
+(classical.00048.mp3) George Gershwin - Rhapsody in Blue
+(classical.00049.mp3) Beethoven - Symphony No.1 in C, Op.21, Finale (Adagio - Allegro molto e vivace)
+(classical.00050.mp3) Samuel Barber - Adagio for Strings
+(classical.00051.mp3) Tchaikovsky - Symphony 6, mvt. 1
+(classical.00052.mp3) Leonard Bernstein - Candide Overture
+(classical.00053.mp3) Giovanni Gabrieli - Canzon XIII
+(classical.00054.mp3) Verdi - Rigoletto, Act 2, Tutte le feste al tiempo
+(classical.00055.mp3) Leonard Bernstein - Symphonic dances from West Side Story, Somewhere
+(classical.00056.mp3) Giovanni Rovetta - Solemn Mass for Feast of Santa Maria della Salute
+(classical.00057.mp3) Leonard Bernstein - Symphonic dances from West Side Story, Scherzo
+(classical.00058.mp3) Erik Satie -  Gymnopedies no. 3
+(classical.00059.mp3) -
+(classical.00060.mp3) Erik Satie - La Belle Excentrique
+(classical.00061.mp3) -
+(classical.00062.mp3) -
+(classical.00063.mp3) Franz Schubert - Piano Sonata No.21 in B flat, D.960, Molto moderato
+(classical.00064.mp3) Franz Schubert - Piano Sonata No.21 in B flat, D.960, Andante sostenuto
+(classical.00065.mp3) Franz Schubert - Piano Sonata No.21 in B flat, D.960, Scherzo
+(classical.00066.mp3) Franz Schubert - Piano Sonata No.21 in B flat, D.960, Allegro ma non troppo
+(classical.00067.mp3) Franz Schubert - Fantasy In C Major, "Wanderer", Allegro Con Fuoco Ma Non Troppo
+(classical.00068.mp3) Franz Joseph Haydn - Symphony No. 26 in D minor, "Lamentatione", Allegro assai con spirito
+(classical.00069.mp3) Franz Joseph Haydn - Symphony No. 26 in D minor, "Lamentatione", Adagio
+(classical.00070.mp3) Franz Joseph Haydn - Symphony No. 26 in D minor, "Lamentatione", Minuet and Trio
+(classical.00071.mp3) Franz Joseph Haydn - Symphony No. 35 in B flat major, Allegro di molto
+(classical.00072.mp3) Franz Joseph Haydn - Symphony No. 35 in B flat major, Andante
+(classical.00073.mp3) Franz Joseph Haydn - Symphony No. 35 in B flat major, Minuet and Trio
+(classical.00074.mp3) Franz Joseph Haydn - Symphony No. 35 in B flat major, Presto
+(classical.00075.mp3) Franz Joseph Haydn - Symphony No. 49 in F minor, Adagio
+(classical.00076.mp3) Franz Joseph Haydn - Symphony No. 49 in F minor, Allegro di molto
+(classical.00077.mp3) Beethoven - Piano Sonata No.8, "Pathetique", Grave
+(classical.00078.mp3) Beethoven - Piano Sonata No.8, "Pathetique", Adagio cantabile
+(classical.00079.mp3) Beethoven - Piano Sonata No.8, "Pathetique", Rondo, allegro
+(classical.00080.mp3) Tchaikovsky - Symphony 6, mvt. 1
+(classical.00081.mp3) Tchaikovsky - Symphony 6, mvt. 2
+(classical.00082.mp3) Percy Grainger - Hill-Song No. 2
+(classical.00083.mp3) Percy Grainger - Ye Banks and Braes o'Bonnie Doon
+(classical.00084.mp3) Percy Grainger - Let's Dance Gay in Green Meadow
+(classical.00085.mp3) Percy Grainger - Lads of Wamphray March
+(classical.00086.mp3) Percy Grainger - Shepherd's Hey
+(classical.00087.mp3) Percy Grainger - The Merry King
+(classical.00088.mp3) Percy Grainger - Molly on the Shore
+(classical.00089.mp3) Vivaldi - The Four Seasons, Op. 8: Spring: Allegro I.
+(classical.00090.mp3) Vivaldi - The Four Seasons, Op. 8: Spring: Largo e pianissimo sempre II.
+(classical.00091.mp3) Vivaldi - The Four Seasons, Op. 8: Spring: Allegro III.
+(classical.00092.mp3) Vivaldi -
+(classical.00093.mp3) Vivaldi -
+(classical.00094.mp3) Vivaldi - The Four Seasons, Op. 8: Summer: Allegro non molto; Allegro I.
+(classical.00095.mp3) Vivaldi - The Four Seasons, Op. 8: Summer: Adaio; Presto II.
+(classical.00096.mp3) Vivaldi - The Four Seasons, Op. 8: Summer: Presto - Tempo impetuoso d'estate III.
+(classical.00097.mp3) Vivaldi - Violin Concerto in A minor Op. 3 No. 6, first movement
+(classical.00098.mp3) Vivaldi - The Four Seasons, Op. 8: Autumn: Allegro I.
+(classical.00099.mp3) Vivaldi - The Four Seasons, Op. 8: Autumn: Adagio molto II.
+(country.00000.mp3) Faith Hill - Just To Hear You Say That You Love Me
+(country.00001.mp3) Patty Loveless - That's the Kind of Mood I'm In
+(country.00002.mp3) - I Wish I Had A Nickel
+(country.00003.mp3) Garth Brooks - If tomorrow never comes
+(country.00004.mp3) Suzy Bogguss - Outbound Plane
+(country.00005.mp3) Shania Twain - You Win My Love
+(country.00006.mp3) John Anderson - Straight Tequila Night
+(country.00007.mp3) Travis Tritt - Best Of Intentions
+(country.00008.mp3) Vince Gill - Never Knew Lonely
+(country.00009.mp3) The Clark Family Experience - Meanwhile, back at the ranch
+(country.00010.mp3) Don Gibson - I Can't Stop Loving You
+(country.00011.mp3) Patsy Cline - A Church, a Courtroom, and Then Goodbye
+(country.00012.mp3) Billy Joe Shaver - Music City
+(country.00013.mp3) Loretta Lynn - Let Your Love Flow
+(country.00014.mp3) Nina Martinique - Silver Threads And Golden Needles
+(country.00015.mp3) George Jones - White Lightening
+(country.00016.mp3) Johnny Cash - I Walk The Line
+(country.00017.mp3) Floyd Cramer - San Antonio Rose
+(country.00018.mp3) Billie Jo Spears - I'm Gonna Be A Country Girl Again
+(country.00019.mp3) Willie Nelson - Shelter Of My Arms
+(country.00020.mp3) Ray Peterson - Tell Laura I Love Her
+(country.00021.mp3) Burt Bacharach - Raindrops Keep Falling on my Head
+(country.00022.mp3) Karl Denver - Love Me With All Your Heart
+(country.00023.mp3) Kenny Rogers - Today I Started Loving You Again
+(country.00024.mp3) Hank Williams - Your Cheatin' Heart
+(country.00025.mp3) Emmylou Harris - Love Hurts
+(country.00026.mp3) Willie Nelson - Home Is Where You're Happy
+(country.00027.mp3) Billy Joe Shaver - Chicken On The Ground
+(country.00028.mp3) Jerry Lee Lewis - Would You Take Another Chance On Me
+(country.00029.mp3) Johnny Rodriguez - Ridin' My Thumb To Mexico
+(country.00030.mp3) -
+(country.00031.mp3) - Come On Joe
+(country.00032.mp3) Sonny Throckmorton - The Last Cheaters Waltz
+(country.00033.mp3) The Kendalls - Teach me to cheat
+(country.00034.mp3) Merle Haggard - Sally let your bangs hang down
+(country.00035.mp3) The Statler Brothers - Oh Baby Mine (I Get So Lonely)
+(country.00036.mp3) Johnny Paycheck - Old Violin
+(country.00037.mp3) Larry Boone - Don't give candy to a stranger
+(country.00038.mp3) - Our Last Night
+(country.00039.mp3) Wayne Toups & Zydecajun  - Johnnie Can't Dance
+(country.00040.mp3) Kentucky Headhunters - Dumas Walker
+(country.00041.mp3) Johnny Cash - Goin' By The Book
+(country.00042.mp3) Normaltown Flyers - Rockin' The Love Boat
+(country.00043.mp3) Sammy Kershaw - Cadillac Style
+(country.00044.mp3) Wesley Dennis - It Ain't Fair
+(country.00045.mp3) Shania Twain - Any Man Of Mine
+(country.00046.mp3) Jimmie Skinner - I Found My Girl In The USA
+(country.00047.mp3) - I Found My Girl In The USA
+(country.00048.mp3) Johnny Preston - Running Bear
+(country.00049.mp3) George Jones - Out Of Control
+(country.00050.mp3) Vince Gill - Never Alone
+(country.00051.mp3) Vince Gill - Never Knew Lonely
+(country.00052.mp3) Vince Gill - When I Call Your Name
+(country.00053.mp3) Vince Gill - Liza Jane
+(country.00054.mp3) Vince Gill - Look At Us
+(country.00055.mp3) Vince Gill - Take Your Memory With You
+(country.00056.mp3) Vince Gill - Pocket Full Of Gold
+(country.00057.mp3) Vince Gill - The Heart Won't Lie
+(country.00058.mp3) Vince Gill - Don't Let Our Love Start Slippin' Away
+(country.00059.mp3) Vince Gill - I Still Believe In You
+(country.00060.mp3) Vince Gill - No Future In The Past
+(country.00061.mp3) Vince Gill - Tryin' To Get Over You
+(country.00062.mp3) Vince Gill - One More Last Chance
+(country.00063.mp3) Vince Gill - I Can't Tell You Why
+(country.00064.mp3) Vince Gill - I Will Always Love You
+(country.00065.mp3) Willie Nelson - Blue Eyes Crying In The Rain
+(country.00066.mp3) Willie Nelson - If You've Got The Money I've Got The Time
+(country.00067.mp3) Willie Nelson - Georgia On My Mind
+(country.00068.mp3) Willie Nelson - Blue Skies
+(country.00069.mp3) Willie Nelson - My Heroes Have Always Been Cowboys
+(country.00070.mp3) Willie Nelson - On the road again
+(country.00071.mp3) Willie Nelson - Always On My Mind
+(country.00072.mp3) Willie Nelson - City Of New Orleans
+(country.00073.mp3) Willie Nelson - Forgiving You Was Easy
+(country.00074.mp3) Willie Nelson - Living In The Promiseland
+(country.00075.mp3) Willie Nelson - Midnight Rider
+(country.00076.mp3) Willie Nelson - Remember Me (When The Candle Lights Are Gleaming)
+(country.00077.mp3) Willie Nelson - Uncloudy Day
+(country.00078.mp3) Willie Nelson - Angel Flying Too Close To The Ground
+(country.00079.mp3) Willie Nelson - The Last Thing I Needed First Thing This Morning
+(country.00080.mp3) Willie Nelson - Nothing I Can Do About It Now
+(country.00081.mp3) Brad Paisley - Long Sermon
+(country.00082.mp3) Brad Paisley - Me Neither
+(country.00083.mp3) Brad Paisley - Who Needs Pictures
+(country.00084.mp3) Brad Paisley - Don't Breathe
+(country.00085.mp3) Brad Paisley - He Didn't Have To Be
+(country.00086.mp3) Brad Paisley - It Never Woulda Worked Out Anyway
+(country.00087.mp3) Brad Paisley - Holdin' On To You
+(country.00088.mp3) Brad Paisley - I've Been Better
+(country.00089.mp3) Brad Paisley - We Danced
+(country.00090.mp3) Brad Paisley - Sleepin' On The Foldout
+(country.00091.mp3) Brad Paisley - Cloud Of Dust
+(country.00092.mp3) Brad Paisley - The Nervous Breakdown
+(country.00093.mp3) Brad Paisley - In the Garden
+(country.00094.mp3) George Strait - I Just Want To Dance With You
+(country.00095.mp3) George Strait - One Step At A Time
+(country.00096.mp3) George Strait - True
+(country.00097.mp3) George Strait - Remember The Alamo
+(country.00098.mp3) George Strait - Maria
+(country.00099.mp3) George Strait - We Really Shouldn't Be Doing This
+(disco.00000.mp3) Boz Scaggs - Lowdown
+(disco.00001.mp3) Gloria Gaynor - I Will Survive
+(disco.00002.mp3) Archie Bell and The Drells - Look Back Over Your Shoulder
+(disco.00003.mp3) Don Armando - Deputy of Love
+(disco.00004.mp3) Carl Douglas - Run Back
+(disco.00005.mp3) Odyssey - Native New Yorker
+(disco.00006.mp3) Alec R. Costandinos - Romeo And Juliet 
+(disco.00007.mp3) Miquel Brown - So Many Men, So Little Time
+(disco.00008.mp3) Ashford & Simpson - Found A Cure
+(disco.00009.mp3) Osibisa - Get Up
+(disco.00010.mp3) Cheryl Lynn - Encore
+(disco.00011.mp3) Billy Ocean - Can You Feel It
+(disco.00012.mp3) Carl Carlton - She's A Bad Mama Jama
+(disco.00013.mp3) Donna Summer - Back Off Boogaloo
+(disco.00014.mp3) Bee Gees - Staying Alive
+(disco.00015.mp3) Heatmp3e - Boogie Nights
+(disco.00016.mp3) Earth Wind and Fire - Sing a Song
+(disco.00017.mp3) Ottawan - You're Ok
+(disco.00018.mp3) -
+(disco.00019.mp3) New York City - I'm Doing Fine Now
+(disco.00020.mp3) Clarence Carter - Patches
+(disco.00021.mp3) Gloria Gaynor - Never Can Say Goodbye
+(disco.00022.mp3) The Gibson Brothers - Ooh! What A Life
+(disco.00023.mp3) Latoya Jackson - Playboy (Be Me)
+(disco.00024.mp3) Ottawan - Help, Get Me Some Help
+(disco.00025.mp3) Evelyn Thomas - High Energy
+(disco.00026.mp3) Latoya Jackson - (Baby) Do The Salsa
+(disco.00027.mp3) The Sugarhill Gang - Rapper's Delight
+(disco.00028.mp3) The Gibson Brothers - Better Do It Salsa
+(disco.00029.mp3) Evelyn Thomas - Heartless
+(disco.00030.mp3) The Gibson Brothers - Latin America 
+(disco.00031.mp3) The Three Degrees -
+(disco.00032.mp3) David Christie - Saddle Up
+(disco.00033.mp3) The Tymes - You Little Trustmaker
+(disco.00034.mp3) Evelyn Thomas - Reflections
+(disco.00035.mp3) The Gibson Brothers - Cuba
+(disco.00036.mp3) -
+(disco.00037.mp3) The Gibson Brothers - Que Sera Mi Vida
+(disco.00038.mp3) Gloria Gaynor - I Am What I Am
+(disco.00039.mp3) George McCrae - I Can't Leave You Alone
+(disco.00040.mp3) -
+(disco.00041.mp3) Heatmp3e - Always and Forever
+(disco.00042.mp3) Disco Tex & The Sex-O-Lettes - I Wanna Dance Wit' Choo
+(disco.00043.mp3) Harold Melvin & The Blue Notes - Satisfaction Guaranteed
+(disco.00044.mp3) Ottawan - Hands Up (Give Me Your Heart)
+(disco.00045.mp3) Ottawan - D.i.s.c.o.
+(disco.00046.mp3) Donna Summer - Hot Stuff
+(disco.00047.mp3) Barbra Streisand and Donna Summer - No More Tears (Enough Is Enough)
+(disco.00048.mp3) Carl Douglas - Kung Fu Fighting
+(disco.00049.mp3) KC and The Sunshine Band - Boogie Shoes
+(disco.00050.mp3) KC and The Sunshine Band - That's The Way (I Like It)
+(disco.00051.mp3) KC and The Sunshine Band - That's The Way (I Like It)
+(disco.00052.mp3) Village People - In the Navy
+(disco.00053.mp3) Amii Stewart - Knock On Wood
+(disco.00054.mp3) Chic - I Want Your Love
+(disco.00055.mp3) The Trammps - Disco Inferno
+(disco.00056.mp3) Earth Wind and Fire - Fantasy
+(disco.00057.mp3) - Auld Lang Syne
+(disco.00058.mp3) -
+(disco.00059.mp3) Earth Wind and Fire - Let's Groove Tonight
+(disco.00060.mp3) The Trammps - Disco Inferno
+(disco.00061.mp3) Anita Ward - Ring My Bell
+(disco.00062.mp3) Peter Brown - Dance With Me
+(disco.00063.mp3) Boney M. - She's Crazy Like a Fool
+(disco.00064.mp3) Lipps, Inc. - Funkytown
+(disco.00065.mp3) -
+(disco.00066.mp3) Peaches and Herb - Shake Your Groove Thing
+(disco.00067.mp3) ABBA - Dancing Queen
+(disco.00068.mp3) ABBA - Take A Chance On Me
+(disco.00069.mp3) Peaches and Herb - Shake Your Groove Thing
+(disco.00070.mp3) KC and The Sunshine Band  - That's The Way (I Like It)
+(disco.00071.mp3) KC and The Sunshine Band - Get Down Tonight
+(disco.00072.mp3) ABBA - Mamma Mia
+(disco.00073.mp3) KC and The Sunshine Band - I'm Your Boogie Man
+(disco.00074.mp3) KC and The Sunshine Band - Get Down Tonight
+(disco.00075.mp3) Village People - Macho Man
+(disco.00076.mp3) Love and Kisses - Thank God It's Friday
+(disco.00077.mp3) Tavares - Heaven must be missing an angel
+(disco.00078.mp3) Gloria Gaynor - I Am What I Am
+(disco.00079.mp3) Peter Brown - Love Is Just The Game
+(disco.00080.mp3) -
+(disco.00081.mp3) -
+(disco.00082.mp3) GQ - Disco Nights (Rock-Freak)
+(disco.00083.mp3) Rick Dees - Disco Duck
+(disco.00084.mp3) -
+(disco.00085.mp3) Tom Tom Club - Wordy Rappinghood
+(disco.00086.mp3) Alicia Bridges - I love the night life
+(disco.00087.mp3) The Supremes - He's My Man
+(disco.00088.mp3) Meco - Star Wars Theme
+(disco.00089.mp3) The Trammps - Disco Inferno
+(disco.00090.mp3) Village People - Fire Island
+(disco.00091.mp3) Silver Convention - Fly Robin Fly
+(disco.00092.mp3) Blondie - Heart Of Glass
+(disco.00093.mp3) Van McCoy - The Hustle
+(disco.00094.mp3) Bronski Beat - WHY?
+(disco.00095.mp3) Donna Summer - Bad Girls
+(disco.00096.mp3) Shirley & Company - Shame, Shame, Shame
+(disco.00097.mp3) -
+(disco.00098.mp3) Boney M. - Rasputin
+(disco.00099.mp3) Boney M. - Rasputin
+(hiphop.00000.mp3) Afrika Bambaataa - Looking for the Perfect Beat
+(hiphop.00001.mp3) Wu-Tang Clan - Triumph
+(hiphop.00002.mp3) De La Soul - Buddy
+(hiphop.00003.mp3) Ice Cube - Friday
+(hiphop.00004.mp3) De La Soul - It Ain't All Good
+(hiphop.00005.mp3) Ice Cube - We Be Clubbin' (DMX Jungle remix)
+(hiphop.00006.mp3) Ice Cube - You Can Do It
+(hiphop.00007.mp3) Wu-Tang Clan - Gravel Pit
+(hiphop.00008.mp3) Beastie Boys - Slow And Low
+(hiphop.00009.mp3) Beastie Boys - Shake Your Rump
+(hiphop.00010.mp3) Beastie Boys - Skills To Pay The Bills
+(hiphop.00011.mp3) Beastie Boys - Root Down
+(hiphop.00012.mp3) Beastie Boys - Sure Shot
+(hiphop.00013.mp3) Beastie Boys - Body Movin' (Fatboy Slim Remix)
+(hiphop.00014.mp3) Beastie Boys - Fight For Your Right
+(hiphop.00015.mp3) Beastie Boys - Bodhisattva Vow
+(hiphop.00016.mp3) Beastie Boys - Alive
+(hiphop.00017.mp3) Beastie Boys - Jimmy James
+(hiphop.00018.mp3) Beastie Boys - Three MC's and One DJ
+(hiphop.00019.mp3) Beastie Boys - Shadrach
+(hiphop.00020.mp3) Beastie Boys - Brass Monkey
+(hiphop.00021.mp3) Beastie Boys - The Negotiation Limerick File
+(hiphop.00022.mp3) Beastie Boys - Get It Together
+(hiphop.00023.mp3) Beastie Boys - Remote Control
+(hiphop.00024.mp3) Beastie Boys - Hey Ladies
+(hiphop.00025.mp3) Beastie Boys - Intergalactic
+(hiphop.00026.mp3) 3LW - No More (Baby I'ma Do Right)
+(hiphop.00027.mp3) The Ambassador - One-Two
+(hiphop.00028.mp3) Dirt - Divine Lines
+(hiphop.00029.mp3) Aaliyah - Try Again
+(hiphop.00030.mp3) -
+(hiphop.00031.mp3) Pink - Can't Take Me Home
+(hiphop.00032.mp3) De La Soul - Buddy
+(hiphop.00033.mp3) Dr Dre - The Next Episode
+(hiphop.00034.mp3) Nice & Smooth - Hip Hop Junkies
+(hiphop.00035.mp3) Allen Iverson - 40 Bars
+(hiphop.00036.mp3) Beastie Boys - Brass Monkey
+(hiphop.00037.mp3) Lil Bow Wow - Bounce With Me
+(hiphop.00038.mp3) 2Pac - California Love
+(hiphop.00039.mp3) Lauryn Hill - Every Ghetto, Every City
+(hiphop.00040.mp3) Lauryn Hill - Ex-Factor
+(hiphop.00041.mp3) Wu-Tang Clan - Dog Shit
+(hiphop.00042.mp3) Wu-Tang Clan - Triumph
+(hiphop.00043.mp3) Wyclef Jean - Anything Can Happen
+(hiphop.00044.mp3) Wyclef Jean - Guantanamera
+(hiphop.00045.mp3) Lauryn Hill - Every Ghetto, Every City
+(hiphop.00046.mp3) A Tribe Called Quest - Check The Rhime
+(hiphop.00047.mp3) A Tribe Called Quest - Award Tour
+(hiphop.00048.mp3) A Tribe Called Quest - Can I Kick It?
+(hiphop.00049.mp3) A Tribe Called Quest - Scenario
+(hiphop.00050.mp3) A Tribe Called Quest - Electric Relaxation
+(hiphop.00051.mp3) A Tribe Called Quest - Luck Of Lucien
+(hiphop.00052.mp3) -
+(hiphop.00053.mp3) -
+(hiphop.00054.mp3) -
+(hiphop.00055.mp3) Cypress Hill - I want to get high
+(hiphop.00056.mp3) Cypress Hill - I Ain't Goin' Out Like That
+(hiphop.00057.mp3) Cypress Hill - Lick A Shot
+(hiphop.00058.mp3) Cypress Hill - Lil' Putos
+(hiphop.00059.mp3) Cypress Hill - Hits From The Bong
+(hiphop.00060.mp3) Cypress Hill - What Go Around Come Around, Kid
+(hiphop.00061.mp3) Cypress Hill - A to the K
+(hiphop.00062.mp3) A Tribe Called Quest - Keeping It Moving
+(hiphop.00063.mp3) A Tribe Called Quest - Find A Way
+(hiphop.00064.mp3) A Tribe Called Quest - Sucka Nigga
+(hiphop.00065.mp3) A Tribe Called Quest - Check The Rhime
+(hiphop.00066.mp3) A Tribe Called Quest - Bonita Applebum
+(hiphop.00067.mp3) A Tribe Called Quest - Award Tour
+(hiphop.00068.mp3) A Tribe Called Quest - Can I Kick It?
+(hiphop.00069.mp3) A Tribe Called Quest - Scenario
+(hiphop.00070.mp3) A Tribe Called Quest - Buggin' Out
+(hiphop.00071.mp3) A Tribe Called Quest - If The Papes Come
+(hiphop.00072.mp3) A Tribe Called Quest - Electric Relaxation
+(hiphop.00073.mp3) A Tribe Called Quest - Jazz (We've Got)
+(hiphop.00074.mp3) A Tribe Called Quest - I Left My Wallet In El Segundo
+(hiphop.00075.mp3) A Tribe Called Quest - Stressed Out
+(hiphop.00076.mp3) 50 Cent - Thug Love
+(hiphop.00077.mp3) Busta Rhymes - What's It Gonna Be?
+(hiphop.00078.mp3) 50 Cent - Thug Love
+(hiphop.00079.mp3) Eminem - The Real Slim Shady
+(hiphop.00080.mp3) Eminem - Marshall Mathers
+(hiphop.00081.mp3) Public Enemy - Contract on the World Love Jam
+(hiphop.00082.mp3) Public Enemy - Brothers Gonna Work It Out
+(hiphop.00083.mp3) Public Enemy - 911 Is A Joke
+(hiphop.00084.mp3) Public Enemy - Incident At 66.6 FM
+(hiphop.00085.mp3) Public Enemy - Welcome To The Terrordome
+(hiphop.00086.mp3) Public Enemy - Pollywanacraka
+(hiphop.00087.mp3) Public Enemy - Anti-Nigger Machine
+(hiphop.00088.mp3) Public Enemy - Burn Hollywood Burn
+(hiphop.00089.mp3) Public Enemy - Power To The People
+(hiphop.00090.mp3) Public Enemy - Who Stole the Soul
+(hiphop.00091.mp3) Public Enemy - Fear of a Black Planet
+(hiphop.00092.mp3) Public Enemy - Revolutionary Generation
+(hiphop.00093.mp3) Public Enemy - Can't Do Nuttin' For Ya, Man!
+(hiphop.00094.mp3) Public Enemy - Reggie Jax
+(hiphop.00095.mp3) Public Enemy - Leave This off Your Fu*kin Charts
+(hiphop.00096.mp3) Public Enemy - B Side Wins Again
+(hiphop.00097.mp3) Public Enemy - War At 33 1/3
+(hiphop.00098.mp3) Public Enemy - Fight the Power
+(hiphop.00099.mp3) RUN-DMC - Let's Stay Together (Together Forever)
+(jazz.00000.mp3) Leonard Bernstein - On the Town: Three Dance Episodes, The great lover
+(jazz.00001.mp3) Leonard Bernstein - Symphonic dances from West Side Story, Prologue
+(jazz.00002.mp3) James Carter - 'Round Midnight
+(jazz.00003.mp3) James Carter - You Never Told Me That You Care
+(jazz.00004.mp3) James Carter - The Intimacy Of My Woman's Beautiful Eyes
+(jazz.00005.mp3) James Carter - 1944 Stomp
+(jazz.00006.mp3) James Carter - The Stevedore's Serenade
+(jazz.00007.mp3) James Carter - Born To Be Blue
+(jazz.00008.mp3) James Carter - Deep Throat Blues
+(jazz.00009.mp3) James Carter - A Ballad For A Doll
+(jazz.00010.mp3) James Carter - Eventide
+(jazz.00011.mp3) Joe Lovano - Lonnie's Lament
+(jazz.00012.mp3) Joe Lovano - Reflections
+(jazz.00013.mp3) Joe Lovano - Little Willie Leaps
+(jazz.00014.mp3) Joe Lovano - This Is All I Ask
+(jazz.00015.mp3) Joe Lovano - 26-2 
+(jazz.00016.mp3) Joe Lovano - Duke Ellington's Sound Of Love
+(jazz.00017.mp3) Joe Lovano - Sounds Of Joy
+(jazz.00018.mp3) Joe Lovano - Fort Worth
+(jazz.00019.mp3) Joe Lovano - Birds Of Springtimes Gone By
+(jazz.00020.mp3) Joe Lovano - I Can't Get Started
+(jazz.00021.mp3) Joe Lovano - Uprising
+(jazz.00022.mp3) Joe Lovano - Sail Away
+(jazz.00023.mp3) Joe Lovano - Blues Not to Lose
+(jazz.00024.mp3) Joe Lovano - Song And Dance
+(jazz.00025.mp3) Branford Marsalis Trio - Roused About
+(jazz.00026.mp3) Branford Marsalis Trio - The Beautyful Ones Are Not Yet Born
+(jazz.00027.mp3) Branford Marsalis Trio - Xavier's Lair
+(jazz.00028.mp3) Branford Marsalis Trio - Cain & Abel
+(jazz.00029.mp3) Branford Marsalis Trio - Citizen Tain
+(jazz.00030.mp3) Branford Marsalis Trio - Gilligan's Isle
+(jazz.00031.mp3) Branford Marsalis Trio - Dewey Baby
+(jazz.00032.mp3) Branford Marsalis Trio - Beat's Remark
+(jazz.00033.mp3) Coleman Hawkins - Body and Soul
+(jazz.00034.mp3) Coleman Hawkins - Dinah
+(jazz.00035.mp3) Coleman Hawkins - April in Paris
+(jazz.00036.mp3) Coleman Hawkins - Sugar Foot Stomp
+(jazz.00037.mp3) Coleman Hawkins - I've Got the World On a String
+(jazz.00038.mp3) Coleman Hawkins - Under Paris Skies
+(jazz.00039.mp3) Coleman Hawkins - When Lights Are Low
+(jazz.00040.mp3) Coleman Hawkins - She's Funny That Way
+(jazz.00041.mp3) Coleman Hawkins - My Blue Heaven
+(jazz.00042.mp3) Coleman Hawkins - Say It Isn't So
+(jazz.00043.mp3) Coleman Hawkins - I Love Paris
+(jazz.00044.mp3) Coleman Hawkins - Sweet Lorraine
+(jazz.00045.mp3) Coleman Hawkins - How Strange
+(jazz.00046.mp3) Coleman Hawkins - Spotlite
+(jazz.00047.mp3) -
+(jazz.00048.mp3) -
+(jazz.00049.mp3) -
+(jazz.00050.mp3) -
+(jazz.00051.mp3) Coleman Hawkins - Body and Soul
+(jazz.00052.mp3) -
+(jazz.00053.mp3) Coleman Hawkins - Dinah
+(jazz.00054.mp3) -
+(jazz.00055.mp3) Coleman Hawkins - April in Paris
+(jazz.00056.mp3) -
+(jazz.00057.mp3) Coleman Hawkins - There Will Never Be Another You
+(jazz.00058.mp3) Coleman Hawkins - Sugar Foot Stomp
+(jazz.00059.mp3) -
+(jazz.00060.mp3) Coleman Hawkins - I've Got the World On a String
+(jazz.00061.mp3) -
+(jazz.00062.mp3) Coleman Hawkins - Under Paris Skies
+(jazz.00063.mp3) -
+(jazz.00064.mp3) -
+(jazz.00065.mp3) Coleman Hawkins - When Lights Are Low
+(jazz.00066.mp3) -
+(jazz.00067.mp3) Coleman Hawkins - She's Funny That Way
+(jazz.00068.mp3) Coleman Hawkins - Say It Isn't So
+(jazz.00069.mp3) Coleman Hawkins - I Love Paris
+(jazz.00070.mp3) Coleman Hawkins - Sweet Lorraine
+(jazz.00071.mp3) Coleman Hawkins - How Strang
+(jazz.00072.mp3) Coleman Hawkins - Spotlite
+(jazz.00073.mp3) Dexter Gordon - Scrapple From The Apple
+(jazz.00074.mp3) Dexter Gordon - Willow Weep For Me
+(jazz.00075.mp3) Dexter Gordon - Broadway
+(jazz.00076.mp3) Dexter Gordon - Stairway To The Stars
+(jazz.00077.mp3) Dexter Gordon - A Night In Tunisia
+(jazz.00078.mp3) -
+(jazz.00079.mp3) -
+(jazz.00080.mp3) -
+(jazz.00081.mp3) -
+(jazz.00082.mp3) -
+(jazz.00083.mp3) Tony Williams - Red Mask
+(jazz.00084.mp3) -
+(jazz.00085.mp3) -
+(jazz.00086.mp3) Tony Williams - Blackbird
+(jazz.00087.mp3) Miles Davis - So What
+(jazz.00088.mp3) Miles Davis - Freddie Freeloader
+(jazz.00089.mp3) Miles Davis - Blue in Green
+(jazz.00090.mp3) Miles Davis - All Blues
+(jazz.00091.mp3) Miles Davis - Flamenco Sketches
+(jazz.00092.mp3) Miles Davis - Flamenco Sketches (alternate)
+(jazz.00093.mp3) -
+(jazz.00094.mp3) Joe Henderson - Miles Ahead
+(jazz.00095.mp3) Joe Henderson - Joshua
+(jazz.00096.mp3) Joe Henderson - Pfrancing (No Blues)
+(jazz.00097.mp3) Joe Henderson - Flamenco Sketches
+(jazz.00098.mp3) Joe Henderson - Milestones
+(jazz.00099.mp3) Joe Henderson - Teo
+(metal.00000.mp3) Falconer - Mindtraveller
+(metal.00001.mp3) Gamma Ray - Beyond The Black Hole
+(metal.00002.mp3) Iron Maiden - Flight of Icarus
+(metal.00003.mp3) Anthrax - Metal Thrashing Mad
+(metal.00004.mp3) Dark Tranquillity - Of Chaos And Eternal Night
+(metal.00005.mp3) Iron Maiden - Wasted Years
+(metal.00006.mp3) -
+(metal.00007.mp3) Coroner - Die By My Hand
+(metal.00008.mp3) -
+(metal.00009.mp3) -
+(metal.00010.mp3) -
+(metal.00011.mp3) -
+(metal.00012.mp3) Dark Tranquillity - Away, Delight, Away
+(metal.00013.mp3) Dark Tranquillity - Of Chaos And Eternal Night
+(metal.00014.mp3) Dark Tranquillity - With The Flaming Shades Of Fall
+(metal.00015.mp3) Dark Tranquillity - Nightfall By The Shore Of Time
+(metal.00016.mp3) -
+(metal.00017.mp3) -
+(metal.00018.mp3) -
+(metal.00019.mp3) -
+(metal.00020.mp3) -
+(metal.00021.mp3) Creed - I'm Eighteen
+(metal.00022.mp3) Ozzy Osbourne - Crazy Train
+(metal.00023.mp3) -
+(metal.00024.mp3) Jacobs Dream - Kinescope
+(metal.00025.mp3) Megadeth - Peace Sells
+(metal.00026.mp3) -
+(metal.00027.mp3) -
+(metal.00028.mp3) Motorhead - Ace Of Spades
+(metal.00029.mp3) Living Colour - Glamour Boys
+(metal.00030.mp3) Megadeth - Trust
+(metal.00031.mp3) Motorhead - Born To Raise Hell
+(metal.00032.mp3) Scorpions - Blackout
+(metal.00033.mp3) Metallica - Enter Sandman
+(metal.00034.mp3) Iron Maiden - The Trooper
+(metal.00035.mp3) -
+(metal.00036.mp3) Slayer - In-a-gadda-da-vida
+(metal.00037.mp3) -
+(metal.00038.mp3) Metallica - ...And Justice For All
+(metal.00039.mp3) Metallica - Star Wars Imperial March 
+(metal.00040.mp3) Dio - Stand Up And Shout
+(metal.00041.mp3) Dio - Gypsy
+(metal.00042.mp3) Dio - Caught InThe Middle
+(metal.00043.mp3) Dio - Straight Through The Heart
+(metal.00044.mp3) Dio - Rainbow In The Dark
+(metal.00045.mp3) Dio - Shame On The Night
+(metal.00046.mp3) New Bomb Turks - Hammerless Nail
+(metal.00047.mp3) New Bomb Turks - Bachelor's High
+(metal.00048.mp3) New Bomb Turks - Professional Againster
+(metal.00049.mp3) New Bomb Turks - Cultural Elite Sign-Up Sheet
+(metal.00050.mp3) New Bomb Turks - Jukebox Lean
+(metal.00051.mp3) New Bomb Turks - Jeers Of A Clown
+(metal.00052.mp3) New Bomb Turks - Look Alive Jive
+(metal.00053.mp3) New Bomb Turks - Staring Down The Gift Horse
+(metal.00054.mp3) New Bomb Turks - Shoot The Offshoot
+(metal.00055.mp3) New Bomb Turks - Drop What You're Doin'
+(metal.00056.mp3) New Bomb Turks - Telephone Numbrrr
+(metal.00057.mp3) New Bomb Turks - Wrest Your Hands
+(metal.00058.mp3) Queen - Tie Your Mother Down
+(metal.00059.mp3) Queen - Tear it up
+(metal.00060.mp3) Queen - We Will Rock You
+(metal.00061.mp3) Dio - Stand Up And Shout
+(metal.00062.mp3) Dio - Gypsy
+(metal.00063.mp3) Dio - Caught In The Middle
+(metal.00064.mp3) Dio - Straight Through The Heart
+(metal.00065.mp3) Dio - Rainbow In The Dark
+(metal.00066.mp3) Dio - Shame On The Night
+(metal.00067.mp3) AC/DC - Big Gun
+(metal.00068.mp3) Judas Priest - Breaking the Law
+(metal.00069.mp3) Black Sabbath - Paranoid
+(metal.00070.mp3) AC/DC - Highway To Hell
+(metal.00071.mp3) Def Leppard - Pour Some Sugar On Me
+(metal.00072.mp3) Deep Purple - Smoke On The Water
+(metal.00073.mp3) Metallica - The Memory Remains
+(metal.00074.mp3) Johnny Crass - Internet Sandman
+(metal.00075.mp3) Metallica - Until It Sleeps
+(metal.00076.mp3) -
+(metal.00077.mp3) Judas Priest - Hell Patrol
+(metal.00078.mp3) Metallica - Prince Charming
+(metal.00079.mp3) Def Leppard - Photograph
+(metal.00080.mp3) Def Leppard - Rocket
+(metal.00081.mp3) Guns N' Roses - Live and Let Die
+(metal.00082.mp3) Guns N' Roses - Welcome To The Jungle
+(metal.00083.mp3) Metallica - For Whom The Bell Tolls
+(metal.00084.mp3) Black Sabbath - Shock the Monkey
+(metal.00085.mp3) Ozzy Osbourne -
+(metal.00086.mp3) Bon Jovi - You Give Love A Bad Name
+(metal.00087.mp3) Metallica - So What
+(metal.00088.mp3) Danzig - Twist of Cain
+(metal.00089.mp3) -
+(metal.00090.mp3) Black Sabbath - Symptom Of The Universe
+(metal.00091.mp3) Black Sabbath - Sabbath Bloody Sabbath
+(metal.00092.mp3) Iron Maiden - Run to the Hills
+(metal.00093.mp3) Iron Maiden - Phantom Of The Opera
+(metal.00094.mp3) Iron Maiden - The Trooper
+(metal.00095.mp3) Rage Against the Machine - Bombtrack
+(metal.00096.mp3) Rage Against The Machine - Killing In The Name
+(metal.00097.mp3) Rage Against The Machine - Wake Up
+(metal.00098.mp3) Rage Against The Machine - Fistful Of Steel
+(metal.00099.mp3) Rage Against The Machine - Freedom
+(pop.00000.mp3) Mandy Moore - Saturate Me
+(pop.00001.mp3) Spice Girls - Wasting My Time
+(pop.00002.mp3) Mariah Carey - My All
+(pop.00003.mp3) Alanis Morissette - Hand in my pocket
+(pop.00004.mp3) Alanis Morissette - Head Over Feet
+(pop.00005.mp3) Alanis Morissette - Ironic
+(pop.00006.mp3) Alanis Morissette - Thank U
+(pop.00007.mp3) Alanis Morissette - Uninvited
+(pop.00008.mp3) Alanis Morissette - You Learn
+(pop.00009.mp3) Alanis Morissette - You Oughta Know
+(pop.00010.mp3) - I'll Be Watching You
+(pop.00011.mp3) Celine Dion - The Prayer
+(pop.00012.mp3) Aretha Franklin, Celine Dion, Mariah Carey, Shania Twain & Gloria Estefan - You Make Me Feel Like A Natural Woman
+(pop.00013.mp3) Babyface - Every Time I Close My Eyes
+(pop.00014.mp3) - I'll Be Watching You
+(pop.00015.mp3) Britney Spears - (You Drive Me) Crazy
+(pop.00016.mp3) Britney Spears - (I Can't Get No) Satisfaction
+(pop.00017.mp3) Britney Spears - (I Can't Get No) Satisfaction
+(pop.00018.mp3) Britney Spears - Autumn Goodbye
+(pop.00019.mp3) Britney Spears - Baby One More Time
+(pop.00020.mp3) Britney Spears - Can't Make You Love Me
+(pop.00021.mp3) Britney Spears - (You Drive Me) Crazy
+(pop.00022.mp3) Britney Spears - (You Drive Me) Crazy
+(pop.00023.mp3) Britney Spears - I'm So Curious
+(pop.00024.mp3) Britney Spears - Deep in my heart
+(pop.00025.mp3) Britney Spears - From The Bottom Of My Broken Heart
+(pop.00026.mp3) Britney Spears - I'll Never Stop Loving You
+(pop.00027.mp3) Britney Spears - Born To Make You Happy
+(pop.00028.mp3) Britney Spears - I Will Be There
+(pop.00029.mp3) Britney Spears - I Will Still Love You
+(pop.00030.mp3) Britney Spears - Lucky
+(pop.00031.mp3) Britney Spears - Lucky
+(pop.00032.mp3) Britney Spears - Oops I did it again
+(pop.00033.mp3) Britney Spears - Pepsi Now and Then
+(pop.00034.mp3) Britney Spears - Sometimes
+(pop.00035.mp3) Britney Spears - Stronger
+(pop.00036.mp3) Britney Spears - Thinkin' About You
+(pop.00037.mp3) Britney Spears - (You Drive Me) Crazy
+(pop.00038.mp3) Britney Spears - What U See (is what you get)
+(pop.00039.mp3) Celine Dion - Dreamin' Of You
+(pop.00040.mp3) Celine Dion - I want you to need me
+(pop.00041.mp3) Peabo Bryson & Regina Belle - A Whole New World
+(pop.00042.mp3) Celine Dion - That's The Way It Is
+(pop.00043.mp3) Cher - Believe
+(pop.00044.mp3) Christina Aguilera - Come On Over (All I Want Is You)
+(pop.00045.mp3) Christina Aguilera - Genie In A Bottle
+(pop.00046.mp3) Christina Aguilera - Genie In A Bottle
+(pop.00047.mp3) Christina Aguilera - Lady Marmalade
+(pop.00048.mp3) Christina Aguilera - Lady Marmalade
+(pop.00049.mp3) Christina Aguilera - Pero Me Acuerdo De Ti
+(pop.00050.mp3) Christina Aguilera - What a girl wants
+(pop.00051.mp3) Christina Aguilera - Lady Marmalade
+(pop.00052.mp3) Destiny's Child - Bootylicious
+(pop.00053.mp3) Destiny's Child - Outro Amazing Grace
+(pop.00054.mp3) Destiny's Child - Bootylicious
+(pop.00055.mp3) Destiny's Child - Bug A Boo
+(pop.00056.mp3) Destiny's Child - Jumpin', Jumpin'
+(pop.00057.mp3) Destiny's Child - Bootylicious
+(pop.00058.mp3) Destiny's Child - Independent Women Part I
+(pop.00059.mp3) Destiny's Child - Jumpin', Jumpin'
+(pop.00060.mp3) Destiny's Child - Bootylicious
+(pop.00061.mp3) Destiny's Child - Apple Pie a La Mode
+(pop.00062.mp3) Destiny's Child - Survivor
+(pop.00063.mp3) Diana Ross - Ain't No Mountain High Enough
+(pop.00064.mp3) -
+(pop.00065.mp3) Prince - The Beautiful Ones
+(pop.00066.mp3) Enrique Iglesias - Could I Have This Kiss Forever
+(pop.00067.mp3) Janet Jackson - All For You
+(pop.00068.mp3) Janet Jackson - Someone To Call My Lover
+(pop.00069.mp3) Michael Jackson & Janet Jackson - Scream
+(pop.00070.mp3) Janet Jackson - I Get Lonely
+(pop.00071.mp3) Janet Jackson - All For You
+(pop.00072.mp3) Janet Jackson - Miss You Much
+(pop.00073.mp3) Janet Jackson - Someone To Call My Lover
+(pop.00074.mp3) Jennifer Lopez - I'm Real (Remix)
+(pop.00075.mp3) Jennifer Lopez - If you had my love
+(pop.00076.mp3) Jennifer Lopez - Dance With Me
+(pop.00077.mp3) Jennifer Lopez - I'm Real
+(pop.00078.mp3) Jennifer Lopez - Play
+(pop.00079.mp3) Kate Bush - Couldbusting
+(pop.00080.mp3) Christina Aguilera - Lady Marmalade
+(pop.00081.mp3) Ladysmith Black Mambazo - Leaning On The Everlasting Arm
+(pop.00082.mp3) Jennifer Lopez - If you had my love
+(pop.00083.mp3) - American Pie
+(pop.00084.mp3) Madonna - Don't Tell Me
+(pop.00085.mp3) Madonna - Hey Mr. DJ
+(pop.00086.mp3) Madonna - Cherish
+(pop.00087.mp3) Mandy Moore - Crush
+(pop.00088.mp3) Mandy Moore - Candy
+(pop.00089.mp3) Mandy Moore - Candy
+(pop.00090.mp3) Mandy Moore - Crush
+(pop.00091.mp3) Mandy Moore - Everything My Heart Desires
+(pop.00092.mp3) Mandy Moore - In My Pocket
+(pop.00093.mp3) Mandy Moore - I Wanna Be With You
+(pop.00094.mp3) Mandy Moore - I Wanna Be With You
+(pop.00095.mp3) Mandy Moore - Love you for always
+(pop.00096.mp3) Mandy Moore - Quit Breaking My Heart
+(pop.00097.mp3) Mariah Carey - Sweetheart
+(pop.00098.mp3) Mariah Carey - Emotions
+(pop.00099.mp3) Mariah Carey - Always Be My Baby
+(reggae.00000.mp3) Bob Marley - Is This Love
+(reggae.00001.mp3) Bob Marley - No Woman No Cry
+(reggae.00002.mp3) Bob Marley - Could You Be Loved
+(reggae.00003.mp3) Bob Marley - Three Little Birds
+(reggae.00004.mp3) Bob Marley - Buffalo Soldier
+(reggae.00005.mp3) Bob Marley - Get Up, Stand Up
+(reggae.00006.mp3) Bob Marley - Stir it Up
+(reggae.00007.mp3) Bob Marley - One Love
+(reggae.00008.mp3) Bob Marley - I shot the Sheriff
+(reggae.00009.mp3) Bob Marley - Waiting in vain
+(reggae.00010.mp3) Bob Marley - Redemption Song
+(reggae.00011.mp3) Bob Marley - Satisfy My Soul
+(reggae.00012.mp3) Bob Marley - Exodus
+(reggae.00013.mp3) Bob Marley - Jamming
+(reggae.00014.mp3) Bob Marley - Natural Mystic
+(reggae.00015.mp3) Bob Marley - Easy Skanking
+(reggae.00016.mp3) Bob Marley - Iron Lion Zion
+(reggae.00017.mp3) Bob Marley - Crazy Baldhead
+(reggae.00018.mp3) Bob Marley - So Much Trouble In The World
+(reggae.00019.mp3) Bob Marley - War
+(reggae.00020.mp3) Bob Marley - Africa Unite
+(reggae.00021.mp3) Bob Marley - Trenchtown Rock
+(reggae.00022.mp3) Bob Marley - Keep On Moving
+(reggae.00023.mp3) Bob Marley - Sun Is Shining
+(reggae.00024.mp3) Bob Marley - Who The Cap Fits
+(reggae.00025.mp3) Bob Marley - One Drop
+(reggae.00026.mp3) Bob Marley - Roots, Rock, Reggae
+(reggae.00027.mp3) Bob Marley - Pimper's Paradise
+(reggae.00028.mp3) -
+(reggae.00029.mp3) -
+(reggae.00030.mp3) -
+(reggae.00031.mp3) -
+(reggae.00032.mp3) -
+(reggae.00033.mp3) Burning Spear - Burning Reggae
+(reggae.00034.mp3) -
+(reggae.00035.mp3) -
+(reggae.00036.mp3) -
+(reggae.00037.mp3) -
+(reggae.00038.mp3) -
+(reggae.00039.mp3) -
+(reggae.00040.mp3) -
+(reggae.00041.mp3) Desmond Dekker - Israelites
+(reggae.00042.mp3) Burning Spear - Dry and Heavy
+(reggae.00043.mp3) The Ethiopians - Reggae Hit the Town
+(reggae.00044.mp3) Burning Spear - Burning Reggae
+(reggae.00045.mp3) -
+(reggae.00046.mp3) Dennis Brown - It's Magic
+(reggae.00047.mp3) Dennis Brown - Money in My Pocket
+(reggae.00048.mp3) Dennis Brown - Westbound Train
+(reggae.00049.mp3) Desmond Dekker - Shanty Town
+(reggae.00050.mp3) Burning Spear - Identity
+(reggae.00051.mp3) -
+(reggae.00052.mp3) Pras - Ghetto Superstar (That Is What You Are)
+(reggae.00053.mp3) -
+(reggae.00054.mp3) Bob Marley - Three Little Birds
+(reggae.00055.mp3) Bob Marley - Sun Is Shining (remix)
+(reggae.00056.mp3) Bob Marley - Get Up, Stand Up
+(reggae.00057.mp3) Bob Marley - I shot the Sheriff
+(reggae.00058.mp3) Bob Marley - Jamming
+(reggae.00059.mp3) Bob Marley - One Love
+(reggae.00060.mp3) Bob Marley - Redemption Song
+(reggae.00061.mp3) Bounty Killer - Living Dangerously
+(reggae.00062.mp3) -
+(reggae.00063.mp3) Burning Spear - Marcus Garvey
+(reggae.00064.mp3) Dennis Brown - Make It Easy
+(reggae.00065.mp3) Dennis Brown -
+(reggae.00066.mp3) Dennis Brown - Sitting And Watching
+(reggae.00067.mp3) Dennis Brown - Some like it hot
+(reggae.00068.mp3) Dennis Brown - Wolf and Leopards
+(reggae.00069.mp3) Desmond Dekker - Israelites
+(reggae.00070.mp3) Gregory Isaacs - John Law
+(reggae.00071.mp3) Dennis Brown - Big Ships
+(reggae.00072.mp3) Freddie McGregor - Prophecy
+(reggae.00073.mp3) Bounty Killer - Hip-Hopera
+(reggae.00074.mp3) Bounty Killer - Hip-Hopera
+(reggae.00075.mp3) Peter Tosh - Legalize It
+(reggae.00076.mp3) Gregory Isaacs - Night Nurse
+(reggae.00077.mp3) Gregory Isaacs - The Border
+(reggae.00078.mp3) Gregory Isaacs - Universal Tribulation
+(reggae.00079.mp3) -
+(reggae.00080.mp3) Ini Kamoze - Here Comes The Hot Stepper(remix)
+(reggae.00081.mp3) Ini Kamoze - Here Comes The Hot Stepper(remix)
+(reggae.00082.mp3) Ini Kamoze - Here Comes The Hot Stepper(remix)
+(reggae.00083.mp3) Jimmy Cliff - Many Rivers To Cross
+(reggae.00084.mp3) Jimmy Cliff - The Harder They Come
+(reggae.00085.mp3) Prince Buster - Judge Dread
+(reggae.00086.mp3) King Tubby - Splash Out Dub
+(reggae.00087.mp3) Lauryn Hill and Bob Marley - Turn Your Lights Down Low
+(reggae.00088.mp3) Marcia Griffiths - Electric Boogie
+(reggae.00089.mp3) The Now Generation - Boney Dog
+(reggae.00090.mp3) -
+(reggae.00091.mp3) Peter Tosh - Legalize It
+(reggae.00092.mp3) Peter Tosh - Legalize It
+(reggae.00093.mp3) Peter Tosh and Mick Jagger - Don't Look Back
+(reggae.00094.mp3) Prince Buster - Ten Commandments
+(reggae.00095.mp3) Prince Buster - Madness
+(reggae.00096.mp3) Prince Buster - Barrister Pardon
+(reggae.00097.mp3) Prince Buster - Here Comes The Bride
+(reggae.00098.mp3) Prince Buster - Rude Rude Rudee 
+(reggae.00099.mp3) Prince Buster - Al Capone
+(rock.00000.mp3) Morphine - Potion
+(rock.00001.mp3) Morphine - I Know You Pt. III
+(rock.00002.mp3) Morphine - Early To Bed
+(rock.00003.mp3) Morphine - Wishing Well
+(rock.00004.mp3) Morphine - Like Swimming
+(rock.00005.mp3) Morphine - Murder For The Money
+(rock.00006.mp3) Morphine - French Fries with Pepper
+(rock.00007.mp3) Morphine - Empty Box
+(rock.00008.mp3) Morphine - Eleven O'Clock
+(rock.00009.mp3) Morphine - Hanging On A Curtain
+(rock.00010.mp3) Ani DiFranco - Worthy
+(rock.00011.mp3) Ani DiFranco - Cradle and All
+(rock.00012.mp3) Ani DiFranco - Shy
+(rock.00013.mp3) Ani DiFranco - 32 Flavors
+(rock.00014.mp3) Ani DiFranco - Asking Too Much
+(rock.00015.mp3) Ani DiFranco - Coming Up
+(rock.00016.mp3) Queen - Tie Your Mother Down
+(rock.00017.mp3) Queen - Under Pressure
+(rock.00018.mp3) Queen - Another One Bites the Dust
+(rock.00019.mp3) Queen - I Want To Break Free 
+(rock.00020.mp3) Queen - (You're So Square) Baby I Don't Care
+(rock.00021.mp3) Queen - Hello Mary Lou (Goodbye Heart)
+(rock.00022.mp3) Queen - Tutti Frutti
+(rock.00023.mp3) Queen - Bohemian rhapsody
+(rock.00024.mp3) Queen - Crazy Little Thing Called Love
+(rock.00025.mp3) Queen - Big spender
+(rock.00026.mp3) Queen - Radio Ga Ga
+(rock.00027.mp3) The Beach Boys - Good Vibrations
+(rock.00028.mp3) The Rolling Stones - Jumpin' Jack Flash
+(rock.00029.mp3) The Rolling Stones - Street Fighting Man
+(rock.00030.mp3) The Rolling Stones - Sympathy for the devil
+(rock.00031.mp3) The Rolling Stones - Honky Tonk Women
+(rock.00032.mp3) Led Zeppelin - All my love
+(rock.00033.mp3) The Rolling Stones - Gimme Shelter
+(rock.00034.mp3) David Bowie - Major Tom
+(rock.00035.mp3) The Rolling Stones - Midnight Rambler
+(rock.00036.mp3) Billy Joel - Movin' Out
+(rock.00037.mp3) The Rolling Stones - Brown Sugar
+(rock.00038.mp3) Guns N' Roses - Knockin' On Heaven's Door
+(rock.00039.mp3) Led Zeppelin - The Song Remains The Same
+(rock.00040.mp3) Led Zeppelin - The Crunge
+(rock.00041.mp3) Led Zeppelin - Dancing Days
+(rock.00042.mp3) Led Zeppelin - D'yer Mak'er
+(rock.00043.mp3) Led Zeppelin - The Ocean
+(rock.00044.mp3) Led Zeppelin - Down By The Seaside
+(rock.00045.mp3) Led Zeppelin - Ten Years Gone
+(rock.00046.mp3) Led Zeppelin - Night Flight
+(rock.00047.mp3) Led Zeppelin - The Wanton Song
+(rock.00048.mp3) Led Zeppelin - Boogie With Stu
+(rock.00049.mp3) Simple Minds - Real Life
+(rock.00050.mp3) Simple Minds - See The Lights
+(rock.00051.mp3) Simple Minds - Let There Be Love
+(rock.00052.mp3) Simple Minds - Woman
+(rock.00053.mp3) Simple Minds - Stand By Love
+(rock.00054.mp3) Simple Minds - Let the Children Speak 
+(rock.00055.mp3) Simple Minds - African Skies
+(rock.00056.mp3) Simple Minds - Ghostrider
+(rock.00057.mp3) Sting - If you love somebody set them free
+(rock.00058.mp3) Sting - Russians
+(rock.00059.mp3) Sting - Children's Crusade
+(rock.00060.mp3) Sting - Shadows In The Rain
+(rock.00061.mp3) Sting - We Work The Black Seam
+(rock.00062.mp3) Sting - Consider Me Gone
+(rock.00063.mp3) Sting - Moon Over Bourbon Street
+(rock.00064.mp3) Jethro Tull - Living In The Past
+(rock.00065.mp3) Jethro Tull - Aqualung
+(rock.00066.mp3) Jethro Tull - Too Old To Rock 'N' Roll, Too Young To Die
+(rock.00067.mp3) Jethro Tull - Bungle In The Jungle
+(rock.00068.mp3) Jethro Tull - Sweet Dream
+(rock.00069.mp3) Jethro Tull - Witches Promise
+(rock.00070.mp3) Jethro Tull - Life Is A Long Song
+(rock.00071.mp3) Simply Red - Something Got Me Started
+(rock.00072.mp3) Simply Red - Stars
+(rock.00073.mp3) Simply Red - Thrill Me
+(rock.00074.mp3) Simply Red - Your Mirror
+(rock.00075.mp3) Simply Red - She's Got It Bad
+(rock.00076.mp3) Simply Red - For Your Babies
+(rock.00077.mp3) Simply Red - Freedom
+(rock.00078.mp3) Simply Red - Wonderland
+(rock.00079.mp3) Survivor - High On You
+(rock.00080.mp3) Survivor - Is This Love
+(rock.00081.mp3) Survivor - Poor Man's Son
+(rock.00082.mp3) Survivor - Burning Heart
+(rock.00083.mp3) Survivor - Desparate Dreams
+(rock.00084.mp3) Survivor - How Much Love
+(rock.00085.mp3) Survivor - Man Against The World
+(rock.00086.mp3) Rick Springfield - Jessie's Girl
+(rock.00087.mp3) Neil Young - Rockin' In The Free World
+(rock.00088.mp3) Billy Squier - The Stroke
+(rock.00089.mp3) Bob Seger - Against The Wind
+(rock.00090.mp3) The Tokens - The Lion Sleeps Tonight
+(rock.00091.mp3) The Stone Roses - She Bangs The Drums
+(rock.00092.mp3) The Stone Roses - Elephant Stone
+(rock.00093.mp3) The Stone Roses - Waterfall
+(rock.00094.mp3) The Stone Roses - Don't Stop
+(rock.00095.mp3) The Stone Roses - Bye Bye Bad Man
+(rock.00096.mp3) The Stone Roses - (Song For My) Sugar Spun Sister
+(rock.00097.mp3) The Stone Roses - Made Of Stone
+(rock.00098.mp3) The Stone Roses - Shoot You Down
+(rock.00099.mp3) The Stone Roses - This Is The One
