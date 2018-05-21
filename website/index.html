@@ -1,0 +1,359 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"> </script>
+    
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	
+	<script> $(function() { $("#infoviz-tab").prepend('<span class="triangle"> </span>') }); </script> 
+    
+    <script>
+        
+        var TRACKS = [];
+        var PATHS = [];
+        var POINTS = [];
+        
+        Plotly.d3.csv("/csv/tracks.csv", function(data) {
+            for (var i=0; i < data.length; i++) {
+                PATHS.push( data[i]['path']);
+                TRACKS.push( data[i]['track']);
+            }
+        });
+        
+        function computeTopSimilar(x, y, z) {
+            var distance_table = [];
+            
+            for (var current_point=0; current_point < POINTS.length; current_point++) {
+                var distance = Math.sqrt( Math.pow(x - POINTS[current_point]['x'], 2) + Math.pow(y - POINTS[current_point]['y'], 2) + Math.pow(z - POINTS[current_point]['z'], 2) );
+                if (distance > 0)
+                    distance_table[current_point] = [PATHS[current_point], distance];
+            }
+            
+            distance_table.sort(compareSecondColumn);
+            
+            var output_tracks = [];
+            for (var i=0; i < 5; i++) {
+                output_tracks[i] = distance_table[i][0];
+            }
+            
+            return output_tracks;
+        }
+
+        function compareSecondColumn(a, b) {
+            if (a[1] === b[1]) {
+                return 0;
+            }
+            else {
+                return (a[1] < b[1]) ? -1 : 1;
+            }
+        }
+        
+        function load_plot() {
+
+            Plotly.d3.csv('./csv/coll_mean_tsne_extended.csv', function(data){ process(data) });            
+        }
+            
+            function process(data) {
+                
+                var uniqueLabeles = ['blues', 'classical', 'country', 'disco', 'hiphop', 'jazz', 'metal', 'pop', 'reggae', 'rock'];
+                var traces = [];
+                var count = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+                
+                POINTS = data;
+                    
+                for (var i=0; i < uniqueLabeles.length; i++) {
+                        
+                    var x_values = [];
+                    var y_values = [];
+                    var z_values = [];
+                    for (var j=0; j < data.length; j++) {
+                        var row = data[j];
+                            
+                        if (row['label'] === uniqueLabeles[i]) {
+                            
+                            count[i] = count[i] +1;
+                            
+                            x_values.push(row['x']);
+                            y_values.push(row['y']);
+                            z_values.push(row['z']);
+                        }
+                    }
+                        
+                    traces[i] = {
+                        x: x_values, y: y_values, z: z_values,
+                        name: uniqueLabeles[i],
+                        mode: 'markers',
+                        marker : {
+                            size: 12,
+                            line: {
+                                color: 'rgba(217, 217, 217, 0.14)',
+                                width: 0.5
+                            },
+                            opacity: 0.8
+                        },
+                        text: TRACKS.slice(100*i, 100 + 100*i),
+                        type: 'scatter3d'
+                    }
+                }
+
+                var layout = {margin: {
+	                   l: 0,
+	                   r: 0,
+	                   b: 0,
+	                   t: 0
+                }};
+                
+                Plotly.newPlot('div-plot', traces, layout);
+                
+                setup();
+            }
+        
+        function setup() {
+            
+            var myplot = document.getElementById('div-plot');
+            
+            myplot.on('plotly_click', function(data){
+                
+                similar_tracks = computeTopSimilar(data.points[0].x, data.points[0].y, data.points[0].z)
+                for (var i=0; i < similar_tracks.length; i++) {
+                    // set the audio path
+                    document.getElementById('suggested-source-'+(i+1)).src = "./audio/" + similar_tracks[i];
+                    var audio_player = document.getElementById('suggested-player-'+(i+1));
+                    audio_player.load();
+                    
+                    for (var j=0; j < PATHS.length; j++)
+                        if (PATHS[j] === similar_tracks[i])
+                            document.getElementById('suggested-track-'+(i+1)).innerHTML = TRACKS[j];
+                }
+                
+                var track = document.getElementById('audio-track');
+                track.innerHTML = TRACKS[100*data.points[0].curveNumber + data.points[0].pointNumber];
+                
+                var source = document.getElementById('audio-player-source');
+                source.src = "./audio/" + PATHS[100*data.points[0].curveNumber + data.points[0].pointNumber];
+                
+                var audio_player = document.getElementById('audio-player');
+                audio_player.load();
+                audio_player.play();
+                
+                var track = TRACKS[100*data.points[0].curveNumber + data.points[0].pointNumber];
+                track = track.split('-')[0].replace(new RegExp(' ', 'g'), '%20');
+                ajax(track);
+            });
+        }
+        
+        function ajax (keyword) {
+                    
+            $.ajax({ 
+                url: "https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=1&explaintext=1&titles=" + keyword,
+                dataType: "jsonp",
+                success: function(response) {
+                    for (var key in response.query.pages) {
+                        //console.log(resp.query.pages[key]);
+                        try {
+                            document.getElementById('bio').innerHTML = response.query.pages[key].extract.split('\n')[0];
+                            document.getElementById('wiki-link').innerHTML = "<br>Continue reading directly on <a href=https://en.wikipedia.org/?curid="+key+">Wikipedia</a>";
+                        } catch(err) {
+                            document.getElementById('bio').innerHTML = "...";
+                            document.getElementById('wiki-link').innerHTML = " ";
+                        }
+                        
+                        console.log("https://en.wikipedia.org/?curid="+key);
+                    }
+                },
+                error: function () {
+                    alert("Error retrieving search results, please refresh the page");
+                }
+ 
+            });
+            
+            $.ajax({ 
+                url: "https://en.wikipedia.org/w/api.php?action=query&prop=pageimages&format=json&pithumbsize=200&titles=" + keyword,
+                dataType: "jsonp",
+                success: function(response) {
+                    for (var key in response.query.pages) {
+                        try {
+                            document.getElementById('icon').src = response.query.pages[key].thumbnail.source;
+                        } catch(err) {
+                            document.getElementById('icon').src = "./img/singer.png";
+                        }
+                    }
+                },
+                error: function () {
+                    alert("Error retrieving search results, please refresh the page");
+                }
+ 
+            });
+        }
+ 
+    </script>
+		
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css" />
+	
+	<title>HCi 2018 - InfoViz</title>
+	
+</head>
+<body>
+
+<div id="page">
+        
+		<div id="header">     
+            <div id="header-title">
+              <span>Human - Computer Interaction class @ EPFL - Spring 2018 </span>
+            </div>
+            
+            <div class="social-button"> 
+				<a href="https://github.com/mfeo15"> <img src="../img/header_git.png"> </a>
+			</div>
+		</div>
+		
+    
+		<div id="sidebar">
+				<div class="sidebar-button" id="infoviz-tab"
+                     onmouseover="document.getElementById('sidebar_infoviz_img').src='../img/sidebar_infoviz_hover.png'"
+                     onmouseout="document.getElementById('sidebar_infoviz_img').src='../img/sidebar_infoviz.png'">
+                    <img id="sidebar_infoviz_img" src="../img/sidebar_infoviz.png">
+					<p> <a href="./index.html"> InfoViz </a> </p>
+				</div>
+				
+				<div class="sidebar-button" id="data-tab"
+                     onmouseover="document.getElementById('sidebar_data_img').src='../img/sidebar_data_hover.png'"
+                     onmouseout="document.getElementById('sidebar_data_img').src='../img/sidebar_data.png'">
+                    <img id="sidebar_data_img" src="../img/sidebar_data.png">
+					<p> <a href="./data.html"> Data </a> </p>
+				</div>
+            
+                <div class="sidebar-button" id="ai-tab"
+                     onmouseover="document.getElementById('sidebar_AI_img').src='../img/sidebar_AI_hover.png'"
+                     onmouseout="document.getElementById('sidebar_AI_img').src='../img/sidebar_AI.png'">
+                    <img id="sidebar_AI_img" src="../img/sidebar_AI.png">
+                    <p> <a href="./ai.html"> AI system </a> </p>
+				</div>
+				
+				<div class="sidebar-button" id="about-tab"
+                     onmouseover="document.getElementById('sidebar_about_img').src='../img/sidebar_about_hover.png'"
+                     onmouseout="document.getElementById('sidebar_about_img').src='../img/sidebar_about.png'">
+                    <img id="sidebar_about_img" src="../img/sidebar_about.png">
+                    <p> <a href="./about.html"> About </a> </p>
+				</div>
+		</div>
+				
+		<div id="content">
+		
+            <h1> Information Visualization </h1>
+			<br>
+            
+            <div class="frame-content" style="height: 80%; margin-top: 0px">
+                <div class="frame-content-title"> 
+                    <p> 3D Space InfoViz </p>
+                </div>
+                
+                <div class="frame-content-content"> 
+                    <div id="div-plot" style="width:100%; height: 90%"> <script> load_plot() </script> </div>
+                </div>
+            
+            </div>
+            
+            <div class="frame-content">
+                <div class="frame-content-title"> 
+                    <p id='audio-track' align='justify'> No audio file has been selected yet. Click on any data point in the plot ! </p>
+                </div>
+                
+                <div class="frame-content-content">  
+                    
+                    <img id='icon' src="./img/singer.png" height="200px" style="padding: 0px 10px 10px 10px; float: right;" />
+                
+                    <audio id='audio-player' controls>
+                        <source id='audio-player-source' src="" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    
+                    <p id='bio'> ... </p>
+                    
+                    <p id='wiki-link'> </p>
+                    
+                </div>
+            </div>
+            
+            <div class="frame-content">
+                <div class="frame-content-title"> 
+                    <p> Suggested similar songs </p>
+                </div>
+                
+                <div class="frame-content-content"> 
+                    
+                    <p align="justify">This block makes use of the 3D space the AI System computed on the music collection. Once you select a song in the visualisation (by clicking the corresponding point), the AI System is able to retrieve the Top5 most similar songs to that one. You can easily discover new songs you most likely might appreciate according to the one you selected. <br><br>
+                    
+                    This example is the perfect usage of the visualisation in the 3D space. The System is able to compute the closest point (in a geometrical point of view) to the one selected. This means that the closer a point is to each other and the more likely they are similar. For this exact reason, each groupped cluster more likely reppresent the same musical genre. </p>
+                    
+                    <table style="width:100%">
+                    <tr>
+                        <td rowspan="2" style="width: 50px" > 1 </td>
+                        <td id="suggested-track-1"> </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px;">
+                            <audio id="suggested-player-1" controls>
+                                <source id="suggested-source-1" src="" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"> 2 </td>
+                        <td id="suggested-track-2"> </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px;">
+                            <audio id="suggested-player-2" controls>
+                                <source id="suggested-source-2" src="" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"> 3 </td>
+                        <td id="suggested-track-3"> </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px;">
+                            <audio id="suggested-player-3" controls>
+                                <source id="suggested-source-3" src="" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"> 4 </td>
+                        <td id="suggested-track-4"> </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px;">
+                            <audio id="suggested-player-4" controls>
+                                <source id="suggested-source-4" src="" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"> 5 </td>
+                        <td id="suggested-track-5"> </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px;">
+                            <audio id="suggested-player-5" controls>
+                                <source id="suggested-source-5" src="" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <img class="footer-logo" src="./img/EPFL-Logo.jpg">
+            
+		</div>
+	</div>
+
+</body>
+</html>

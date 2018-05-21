@@ -1,0 +1,116 @@
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"> </script>
+	
+	<script> $(function() { $("#about-tab").prepend('<span class="triangle"> </span>') }); </script> 
+    
+    <script>
+    
+        var myPlot = document.getElementById('pca_clusters').contentWindow;
+        
+        myPlot.on('plotly_click', function(){
+            alert('Closest point clicked:\n\n');
+        });
+        
+    </script>
+		
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css" />
+	
+	<title>HCi 2018 - About</title>
+	
+</head>
+<body>
+
+<div id="page">
+        
+		<div id="header">     
+            <div id="header-title">
+              <span>Human - Computer Interaction class @ EPFL - Spring 2018 </span>
+            </div>
+            
+            <div class="social-button"> 
+				<a href="https://github.com/mfeo15"> <img src="../img/header_git.png"> </a>
+			</div>
+		</div>
+		
+    
+		<div id="sidebar">
+				<div class="sidebar-button" id="infoviz-tab"
+                     onmouseover="document.getElementById('sidebar_infoviz_img').src='../img/sidebar_infoviz_hover.png'"
+                     onmouseout="document.getElementById('sidebar_infoviz_img').src='../img/sidebar_infoviz.png'">
+                    <img id="sidebar_infoviz_img" src="../img/sidebar_infoviz.png">
+					<p> <a href="./index.html"> InfoViz </a> </p>
+				</div>
+				
+				<div class="sidebar-button" id="data-tab"
+                     onmouseover="document.getElementById('sidebar_data_img').src='../img/sidebar_data_hover.png'"
+                     onmouseout="document.getElementById('sidebar_data_img').src='../img/sidebar_data.png'">
+                    <img id="sidebar_data_img" src="../img/sidebar_data.png">
+					<p> <a href="./data.html"> Data </a> </p>
+				</div>
+            
+                <div class="sidebar-button" id="ai-tab"
+                     onmouseover="document.getElementById('sidebar_AI_img').src='../img/sidebar_AI_hover.png'"
+                     onmouseout="document.getElementById('sidebar_AI_img').src='../img/sidebar_AI.png'">
+                    <img id="sidebar_AI_img" src="../img/sidebar_AI.png">
+                    <p> <a href="./ai.html"> AI system </a> </p>
+				</div>
+				
+				<div class="sidebar-button" id="about-tab"
+                     onmouseover="document.getElementById('sidebar_about_img').src='../img/sidebar_about_hover.png'"
+                     onmouseout="document.getElementById('sidebar_about_img').src='../img/sidebar_about.png'">
+                    <img id="sidebar_about_img" src="../img/sidebar_about.png">
+                    <p> <a href="./about.html"> About </a> </p>
+				</div>
+		</div>
+				
+		<div id="content">
+		
+            <h1> About </h1>
+			<br>
+            
+            <div class="frame-content">
+                <div class="frame-content-title"> <p> Who am I? </p></div>
+                
+                <div class="frame-content-content"> 
+                    
+                    <img id='profile-pic' src="./img/me.png" height="300px" style="padding: 0px 10px 30px 30px; float: right;" />
+                    
+                    <p align="justify">
+                        I am Matteo Yann Feo, commonly called just Yann (too many "Matteo" in the world). I am attending my Master in Computer Science at EPFL,      Lausanne. 
+                        <br><br>
+                        I am passionate and full of ambition and always looking for the next challenge to face in my life. I love to push my limits and leave my "comfort zone" in order to achieve the best from each single day.
+                        I am both perfectionist and meticulous when it comes to work. I can't settle for the minimum results when each detail can be tuned to be just the best they can. I like to push little projects to their highest boundaries.
+                        <br><br>    
+                        International and multi-cultural background. Lived one year in Shanghai while studying for my Bachelor Degree. I love to travel and experience new adventures each single day. I am fond of unknown cultures and traditions.
+                        <br><br> 
+                    </p>
+                </div>
+            </div>
+            
+            <div class="frame-content">
+                <div class="frame-content-title"> <p> Why this interactive prototype? </p></div>
+                
+                <div class="frame-content-content"> 
+                    
+                    <p align="justify">
+                        Each year the course of Human-Computer Interaction (HCi) at EPFL taught by Dr. Pearl Pu provides to the students a Design Challange to tackle. The idea is to simulate a full design thinking process from conception, interviews, prototyping and finally evaluation of the results. <br>
+                        This year's challange is called "AI is beautiful" and aims to develop a system thanks information visualization techniques that could explain AI, thus making the inner logic of AI more accessible and scrutable to a lay user. <br><br>
+                        
+                        The challenge requires the final solution to stay within the following three criteria:
+                    </p>
+                    <ol>
+                            <li>Big data - the final solution must be able to treat a large amount of data</li>
+                            <li>Data transformation – the AI algorithm and techniques chosen are capable<br>of transforming data into more meaningful insights</li>
+                            <li>Relatedness – lay users can easily relate to the final solution, in its interactive and visual form</li>
+                        </ol>
+                </div>
+            </div>
+            
+            <img class="footer-logo" src="./img/EPFL-Logo.jpg"> 
+            
+		</div>
+	</div>
+
+</body>
+</html>
